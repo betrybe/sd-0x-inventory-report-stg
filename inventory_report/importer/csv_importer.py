@@ -1,6 +1,6 @@
 from inventory_report.importer.importer import Importer
 import csv
-import os.path
+
 
 class CsvImporter(Importer):
     @classmethod

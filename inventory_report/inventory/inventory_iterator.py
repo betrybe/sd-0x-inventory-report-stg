@@ -14,4 +14,3 @@ class InventoryIterator(Iterator):
         else:
             self._position += 1
             return current_value
-   

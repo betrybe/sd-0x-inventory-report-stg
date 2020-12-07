@@ -1,7 +1,5 @@
-from collections.abc import Iterable
 from inventory_report.reports.simple_report import SimpleReport
 from inventory_report.reports.complete_report import CompleteReport
-from inventory_report.inventory.inventory_iterator import InventoryIterator
 import csv
 import json
 import xml.etree.ElementTree as ET
@@ -54,5 +52,3 @@ class Inventory:
             return cls.json_importer(file, request_type)
         if file.endswith(".xml"):
             return cls.xml_importer(file, request_type)
-        
-        
