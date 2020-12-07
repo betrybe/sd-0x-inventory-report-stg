@@ -9,7 +9,7 @@ class XmlImporter(Importer):
         all_products = []
         for record in root.findall("record"):
             product = {}
-            for child in record.getchildren():
+            for child in list(record):
                 product[child.tag] = child.text.strip()
             all_products.append(product)
         return all_products
