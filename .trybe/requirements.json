@@ -156,33 +156,33 @@
       "bonus": true
     },
     {
-      "identifier": "Será validado que inter é instanciado por iterator",
-      "description": "test_validar_inter_e_instanciado_por_iterator",
+      "identifier": "test_validar_inter_e_instanciado_por_iterator",
+      "description": "Será validado que inter é instanciado por iterator",
       "bonus": false
     },
     {
-      "identifier": "Será validado que é possivel interar o primeiro item da lista usando csv",
-      "description": "test_validar_iterar_primeiro_item_com_csv",
+      "identifier": "test_validar_iterar_primeiro_item_com_csv",
+      "description": "Será validado que é possivel interar o primeiro item da lista usando csv",
       "bonus": false
     },
     {
-      "identifier": "Será validado que é possivel interar o primeiro item da lista usando json",
-      "description": "test_validar_iterar_primeiro_item_com_json",
+      "identifier": "test_validar_iterar_primeiro_item_com_json",
+      "description": "Será validado que é possivel interar o primeiro item da lista usando json",
       "bonus": false
     },
     {
-      "identifier": "Será validado que é possivel interar o primeiro item da lista usando xml",
-      "description": "test_validar_iterar_primeiro_item_com_xml",
+      "identifier": "test_validar_iterar_primeiro_item_com_xml",
+      "description": "Será validado que é possivel interar o primeiro item da lista usando xml",
       "bonus": false
     },
     {
-      "identifier": "Será validado que é possivel expandir duas listas de dados",
-      "description": "test_validar_iterar_expandir_com_dois_arquivos",
+      "identifier": "test_validar_iterar_expandir_com_dois_arquivos",
+      "description": "Será validado que é possivel expandir duas listas de dados",
       "bonus": false
     },
     {
-      "identifier": "Será validado que não é possivel enviar arquivo inválido",
-      "description": "test_validar_enviar_arquivo_extensao_invalia",
+      "identifier": "test_validar_enviar_arquivo_extensao_invalida",
+      "description": "Será validado que não é possivel enviar arquivo inválido",
       "bonus": false
     }
   ]
