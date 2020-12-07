@@ -53,7 +53,7 @@ def test_validar_iterar_expandir_com_dois_arquivos():
     assert len(instance.data) == 20
 
 
-def test_validar_enviar_arquivo_extensao_invalia():
+def test_validar_enviar_arquivo_extensao_invalida():
     with pytest.raises(ValueError, match="Arquivo inválido"):
         instance = InventoryRefactor(CsvImporter)
         instance.import_data('inventory_report/data/inventory.json', 'simples')
